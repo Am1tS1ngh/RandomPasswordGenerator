@@ -52,7 +52,7 @@ function App() {
 
       <div className='flex test-sm gap-x-2 flex-wrap'>
         <div className="flex items-center gap-x-1">
-          <input type="range" min={8} max={100} value={length} className='cursor-pointer' id="length" onChange={(e) => {setLength(e.target.value)}}/>
+          <input type="range" min={8} max={32} value={length} className='cursor-pointer' id="length" onChange={(e) => {setLength(e.target.value)}}/>
           <label htmlFor="length">Length: {length}</label>
         </div>
         <div className="flex items-center gap-x-1">
